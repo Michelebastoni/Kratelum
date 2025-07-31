@@ -17,17 +17,17 @@ Kratelum is an arcade arena shooter set in an alternate Metal WWI, where exagger
 
 ## [***Trailer***](https://youtu.be/ZAgwMNOgDZw) 
 
-## [***Download***]() 
+## [***Download***](https://github.com/Michelebastoni/Kratelum/releases/tag/Release) 
 
 # My Role
 
 I worked on various core mechanics, including:
-- [Characters Base Class](https://github.com/Michelebastoni/Kratelum/edit/main/README.md#characters-base-class)
-- [Player controller](https://github.com/Michelebastoni/Kratelum/edit/main/README.md#player-controller)
-- [Component implementations](https://github.com/Michelebastoni/Kratelum/edit/main/README.md#components-implementation)
-- [Score implementation](https://github.com/Michelebastoni/Kratelum/edit/main/README.md#score-implementation)
-- [Save system](https://github.com/Michelebastoni/Kratelum/edit/main/README.md#save-system)
-- [UI](https://github.com/Michelebastoni/Kratelum/edit/main/README.md#ui)
+- [Characters Base Class](https://github.com/Michelebastoni/Kratelum/tree/main?tab=readme-ov-file#characters-base-class)
+- [Player controller](https://github.com/Michelebastoni/Kratelum/tree/main?tab=readme-ov-file#player-controller)
+- [Component implementations](https://github.com/Michelebastoni/Kratelum/tree/main?tab=readme-ov-file#components-implementation)
+- [Score implementation](https://github.com/Michelebastoni/Kratelum/tree/main?tab=readme-ov-file#score-implementation)
+- [Save system](https://github.com/Michelebastoni/Kratelum/tree/main?tab=readme-ov-file#save-system)
+- [UI](https://github.com/Michelebastoni/Kratelum/tree/main?tab=readme-ov-file#ui)
 
 # Characters Base Class 
 [.h](https://github.com/Michelebastoni/Kratelum/blob/main/Source/TBO02/Public/CharacterLogic/GenericCharacter.h) / [.cpp](https://github.com/Michelebastoni/Kratelum/blob/main/Source/TBO02/Private/CharacterLogic/GenericCharacter.cpp)
@@ -46,7 +46,7 @@ The character uses different components such as:
 
 > [!NOTE]
 > I didn't implement Interaction Component, "Interactable" Obejct too, so it's not gonna be its description on this file.
-> You can find the components i worked on [Here](https://github.com/Michelebastoni/Kratelum/edit/main/README.md#components-implementation).
+> You can find the components i worked on [Here](https://github.com/Michelebastoni/Kratelum/tree/main?tab=readme-ov-file#components-implementation).
 > 
 > Interaction Scripts if you wanna go in deep [.h](https://github.com/Michelebastoni/Kratelum/blob/main/Source/TBO02/Public/InteractionSystem/Components/InteractionComponent.h) / [.cpp](https://github.com/Michelebastoni/Kratelum/blob/main/Source/TBO02/Private/InteractionSystem/Components/InteractionComponent.cpp)
 
@@ -57,7 +57,7 @@ Furthermore, The character’s base class has a Weapon class variable which can 
 [.h](https://github.com/Michelebastoni/Kratelum/blob/main/Source/TBO02/Public/CharacterLogic/PlayerCharacter.h) / [.cpp](https://github.com/Michelebastoni/Kratelum/blob/main/Source/TBO02/Private/CharacterLogic/PlayerCharacter.cpp)
 
 the player inherits from the character's base class, in addition to the basic things he owns:
-[Overflow Component](https://github.com/Michelebastoni/Kratelum/edit/main/README.md#overflow-component) to trigger the “Overflow” status
+[Overflow Component](https://github.com/Michelebastoni/Kratelum/tree/main?tab=readme-ov-file#overflow-component) to trigger the “Overflow” status
 
 # Player Controller
 
@@ -90,8 +90,8 @@ For example, unbinding additional subscriptions.
 # Components Implementation
 
 In the project, I worked on some core components:
-- [Integrity Component](https://github.com/Michelebastoni/Kratelum/edit/main/README.md#integrity-component)
-- [Overflow Component](https://github.com/Michelebastoni/Kratelum/edit/main/README.md#overflow-component)
+- [Integrity Component](https://github.com/Michelebastoni/Kratelum/tree/main?tab=readme-ov-file#integrity-component)
+- [Overflow Component](https://github.com/Michelebastoni/Kratelum/tree/main?tab=readme-ov-file#overflow-component)
 
 ## Integrity Component
 [.h](https://github.com/Michelebastoni/Kratelum/blob/main/Source/TBO02/Public/IntegritySystem/Integrity.h) / [.cpp](https://github.com/Michelebastoni/Kratelum/blob/main/Source/TBO02/Private/IntegritySystem/Integrity.cpp)
